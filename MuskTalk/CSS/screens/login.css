@@ -27,11 +27,12 @@
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
+  border-radius: 10px;
 }
 #login-form input:not([type="submit"]) {
   border-bottom: none;
   transition: border-color 0.3s ease-in-out;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid darkblue;
 }
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
@@ -44,9 +45,10 @@
 #login-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
   padding: 20px 0px;
   border-radius: 5px;
+  color: white;
 }
 
 #login-form a {
