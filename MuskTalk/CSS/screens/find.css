@@ -8,7 +8,8 @@
 
 .recommended-friends__title{
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.5);
+    color: darkblue;
+    margin-bottom: 10px;
 }
 
 .recommended-friends span{
@@ -22,12 +23,12 @@
 .open-chat__header{
     display: flex;
     justify-content: space-between;
-    color: var(--grey);
+    color: darkblue;
     margin-bottom: 25px;
 }
 
 .open-chat__header span{
-    color: var(--grey);
+    color: darkblue;
 }
 
 .open-post{
@@ -44,7 +45,7 @@
 
 .open-post__hashtag{
     text-transform: uppercase;
-    color: var(--grey);
+    color: darkblue;
 }
 
 .open-post__members{
@@ -62,19 +63,19 @@
 }
 
 .open-post__member-count{
-    color: var(--grey);
+    color: black;
     font-size: 14px;
 }
 
 .open-post__members .divider{
     width: 2px;
     height: 15px;
-    background-color: var(--grey);
+    background-color: black;
     margin: 0px 5px;
 }
 
 .open-post__member-status{
-    color: #ffb0e0;
+    color: red;
 }
 
 .open-post__photo{

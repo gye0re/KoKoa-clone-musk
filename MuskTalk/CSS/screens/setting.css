@@ -15,3 +15,12 @@
 .settings__setting-column:last-child{
     opacity: 0.5;
 }
+
+.settings-seting:hover{
+    border: 1px dotted darkblue;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    padding: 20px 0px;
+    margin: 0px auto;
+}
